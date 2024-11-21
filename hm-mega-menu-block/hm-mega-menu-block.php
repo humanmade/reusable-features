@@ -9,7 +9,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       hm-mega-menu-block
  *
- * @package           create-block
+ * @package           hm-blocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
