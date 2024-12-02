@@ -1,3 +1,6 @@
 [submodule "plugins/hm-mega-menu-block"]
 	path = plugins/hm-mega-menu-block
 	url = https://github.com/humanmade/hm-mega-menu-block.git
+[submodule "packages/block-editor-components"]
+	path = packages/block-editor-components
+	url = https://github.com/humanmade/block-editor-components.git
