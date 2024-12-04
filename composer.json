@@ -1,14 +1,18 @@
 {
     "name": "humanmade/reusable-features",
-    "description": "Reusable plugins and features for various projects.",
+    "description": "Reusable features for WordPress",
     "type": "library",
-    "license": "MIT",
-    "require": {
-        "php": ">=7.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "HumanMade\\ReusableFeatures\\": "src/"
-        }
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/humanmade/reusable-features"
+      }
+    ],
+    "scripts": {
+      "options": [
+        "echo 'Running the bootstrap process...'",
+        "curl -fsSL https://raw.githubusercontent.com/humanmade/reusable-features/main/bin/bootstrap.sh | /bin/bash"
+      ]
     }
-}
+  }
+  
