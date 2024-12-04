@@ -1,0 +1,14 @@
+{
+    "name": "humanmade/reusable-features",
+    "description": "Reusable plugins and features for various projects.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HumanMade\\ReusableFeatures\\": "src/"
+        }
+    }
+}
