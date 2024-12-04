@@ -53,8 +53,8 @@ This command will download and execute the `bootstrap.sh` script from GitHub, wh
 This repository is open to contributions from the entire **Human Made (HM)** team. To contribute:
 
 1. Create a new plugin or feature and publish it to a GitHub repository.
-2. Add the feature to the `features.txt` list.
-3. Test your feature thoroughly.
+2. Submit it to Packagist.org.
+3. Add the feature to the `features.txt` list.
 4. Submit a pull request (PR) for review.
 
 We encourage anyone in **Human Made** to submit their features to this repository. The goal is to collaboratively build a library of reusable features to benefit all projects. Whether it's adding new functionality or improving existing ones, your contributions are valuable!
