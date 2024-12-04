@@ -1,15 +1,14 @@
 
 # Reusable Features
 
-The **Reusable Features** repository is designed to streamline development by consolidating reusable tools and plugins into a central hub. These tools can be easily integrated into various projects, reducing development time and effort while maintaining modularity.
+The **Reusable Features** repository is designed to streamline development by consolidating features into reusable plugins and scripts. These features can be integrated into various projects, reducing development time and effort.
 
-This repository is an Americas Squad initiative, created to promote efficiency, collaboration, and code sharing across teams. While still in its early stages of development, the repo provides a foundation for organizing and accessing commonly used features in a structured way.
+This repository is an Americas Squad's initiative, created to promote efficiency, collaboration, and code sharing across teams. While still in its early stages of development, the repo provides a foundation for organizing and accessing commonly used features in a structured way.
 
 ---
 
 ## How It Works
-
-This repository provides a curated list of reusable plugins and features, which are available as Composer packages. Instead of using Git submodules, developers can install these features via Composer, ensuring better dependency management and versioning.
+The repository allows developers to install reusable features via Composer, providing an easy way to include various tools and plugins in their projects. After installation, developers can run a custom Composer command to bootstrap their environment and activate the desired features.
 
 ---
 
@@ -22,70 +21,56 @@ This repository provides a curated list of reusable plugins and features, which 
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
-- **Composer Package**: `humanmade/hm-mega-menu-block`
-- **Installation**: See the "Getting Started" section below.
+- **Documentation**: Follow the steps below to use this feature.
 
 ---
 
 ## Getting Started
 
-### Clone the Repository
-To get started with the reusable features, clone this repository:
+### Install Reusable Features via Composer
+
+To install the `reusable-features` package in your project, run the following command:
 
 ```bash
-git clone https://github.com/humanmade/reusable-features.git
-cd reusable-features
+composer require humanmade/reusable-features
 ```
 
----
+This will install the necessary features and dependencies.
 
-### Install Features Using Composer
+### Run the Bootstrap Command
 
-1. Use the provided interactive script to select and install features:
+After installing the features, you can run the `composer options` command to automatically bootstrap the desired features:
 
-   ```bash
-   ./bin/bootstrap.sh
-   ```
+```bash
+composer options
+```
 
-   The script will prompt you to select features from the list defined in the `features.txt` file and automatically run the necessary `composer require` commands.
-
-2. Alternatively, you can manually install features using Composer. For example:
-
-   ```bash
-   composer require humanmade/hm-mega-menu-block
-   ```
+This command will download and execute the `bootstrap.sh` script from GitHub, which will prompt you to select and install the features you want to enable.
 
 ---
 
-## Contributing
+## Contribution Guidelines
 
 This repository is open to contributions from the entire **Human Made (HM)** team. To contribute:
 
-1. Create a new plugin or feature as a standalone Git repository.
-2. Add a `composer.json` file to your repository.
-3. Publish your repository to Packagist or a private Composer repository.
-4. Update the `features.txt` file in this repository with the new feature details:
-   - Format: `<Feature Name>|<Composer Package Name>`
-5. Submit a pull request (PR) for review.
+1. Create a new plugin or feature and publish it to a GitHub repository.
+2. Add the feature to the `reusable-features` repository by updating the `composer.json` file.
+3. Test your feature thoroughly.
+4. Submit a pull request (PR) for review.
 
-We encourage the community to build and share reusable features that can benefit all projects.
-
----
-
-## Features Management Script
-
-To simplify the installation process, this repository includes a script (`bin/bootstrap.sh`) that allows you to:
-
-1. Browse available features from the `features.txt` file.
-2. Select specific features to install.
-3. Automatically run the necessary Composer commands.
-
-For details, see the "Install Features Using Composer" section above.
+We encourage anyone in **Human Made** to submit their features to this repository. The goal is to collaboratively build a library of reusable features to benefit all projects. Whether it's adding new functionality or improving existing ones, your contributions are valuable!
 
 ---
 
 ## Future Plans
 
-- **Enhanced Tooling**: Develop an interactive project bootstrapping tool to further streamline feature integration.
-- **Expanded Features**: Add more reusable plugins and tools as needed.
-- **Documentation**: Provide comprehensive guides for each feature and its usage.
+- **Organization**: Create a standardized structure for categorizing features.
+- **Documentation**: Provide comprehensive documentation for each plugin and feature.
+- **Enhancements**: Add more reusable plugins and features as needed.
+
+---
+
+## Notes
+
+- This is a work-in-progress initiative; the repository may undergo significant structural changes as it matures.
+- If you encounter issues or have suggestions, feel free to create an issue or contact the **Americas Squad** team.
