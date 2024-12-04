@@ -21,7 +21,6 @@ The repository allows developers to install reusable features via Composer, prov
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
-- **Documentation**: Follow the steps below to use this feature.
 
 ---
 
