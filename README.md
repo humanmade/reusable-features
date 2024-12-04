@@ -53,7 +53,7 @@ This command will download and execute the `bootstrap.sh` script from GitHub, wh
 This repository is open to contributions from the entire **Human Made (HM)** team. To contribute:
 
 1. Create a new plugin or feature and publish it to a GitHub repository.
-2. Add the feature to the `reusable-features` repository by updating the `composer.json` file.
+2. Add the feature to the `features.txt` list.
 3. Test your feature thoroughly.
 4. Submit a pull request (PR) for review.
 
