@@ -1,13 +1,14 @@
+
 # Reusable Features
 
-The **Reusable Features** repository is designed to streamline development by consolidating features into reusable submodules. These submodules can be integrated into various projects, reducing development time and effort.
+The **Reusable Features** repository is designed to streamline development by consolidating features into reusable plugins and scripts. These features can be integrated into various projects, reducing development time and effort.
 
 This repository is an Americas Squad's initiative, created to promote efficiency, collaboration, and code sharing across teams. While still in its early stages of development, the repo provides a foundation for organizing and accessing commonly used features in a structured way.
 
 ---
 
 ## How It Works
-The repository uses Git submodules to include individual plugins or features. This approach allows developers to integrate only the required submodules into their projects, keeping the project lightweight and focused.
+The repository allows developers to install reusable features via Composer, providing an easy way to include various tools and plugins in their projects. After installation, developers can run a custom Composer command to bootstrap their environment and activate the desired features.
 
 ---
 
@@ -20,7 +21,6 @@ The repository uses Git submodules to include individual plugins or features. Th
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
-- **Documentation**: Follow the steps below to use this feature.
 
 ### 2. [Block Editor Components](https://github.com/humanmade/block-editor-components)
 - **Description**: Package of reusable components, hooks and helper functions for the WordPress block editor(s).
@@ -35,25 +35,25 @@ The repository uses Git submodules to include individual plugins or features. Th
 
 ## Getting Started
 
-### Clone the Repository
-To clone the repository and initialize its submodules, use the following commands:
+### Install Reusable Features via Composer
+
+To install the `reusable-features` package in your project, run the following command:
 
 ```bash
-git clone --recurse-submodules https://github.com/humanmade/reusable-features.git
-cd reusable-features
+composer require humanmade/reusable-features
 ```
 
-If you’ve already cloned the repository without submodules, you can initialize and update the submodules using:
+This will install the necessary features and dependencies.
+
+### Run the Bootstrap Command
+
+After installing the features, you can run the `composer options` command to automatically bootstrap the desired features:
+
+```bash
+composer options
 ```
-git submodule update --init --recursive
-```
 
----
-
-## Access Specific Features
-
-1. Locate the desired feature/plugin in the repository's structure.
-2. Add it to your project by cloning the specific submodule or linking directly from your repository.
+This command will download and execute the `bootstrap.sh` script from GitHub, which will prompt you to select and install the features you want to enable.
 
 ---
 
@@ -61,9 +61,9 @@ git submodule update --init --recursive
 
 This repository is open to contributions from the entire **Human Made (HM)** team. To contribute:
 
-1. Create a new submodule for your feature or plugin and add it to the repository.
-2. Test your feature thoroughly.
-3. Submit a pull request (PR) for review.
+1. Create a new plugin or feature and publish it to a GitHub repository.
+2. Submit it to Packagist.org.
+3. Add the feature to the `features.txt` list.
 
 We encourage anyone in **Human Made** to submit their features to this repository. The goal is to collaboratively build a library of reusable features to benefit all projects. Whether it's adding new functionality or improving existing ones, your contributions are valuable!
 
@@ -72,7 +72,7 @@ We encourage anyone in **Human Made** to submit their features to this repositor
 ## Future Plans
 
 - **Organization**: Create a standardized structure for categorizing features.
-- **Documentation**: Provide comprehensive documentation for each submodule.
+- **Documentation**: Provide comprehensive documentation for each plugin and feature.
 - **Enhancements**: Add more reusable plugins and features as needed.
 
 ---
