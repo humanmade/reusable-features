@@ -29,7 +29,8 @@ The repository allows developers to install reusable features via Composer, prov
   - New components for common requirements such as text with limits.
   - New hooks including useMeta, useBlockStyles, useSetAttribute.
   - Other utilities functions for working with block, images and options.
-- **Documentation**: [Refer to project readme for more information](https://github.com/humanmade/block-editor-components)
+- **Installation**: This is an npm package and will not be installed via the `composer options` command.
+- **Documentation**: [Refer to project readme for more information](https://github.com/humanmade/block-editor-components).
 
 ---
 
