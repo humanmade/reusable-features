@@ -15,12 +15,22 @@ The repository allows developers to install reusable features via Composer, prov
 ## Features List
 
 ### 1. [Mega Menu Block](https://github.com/humanmade/hm-mega-menu-block)
-- **Description**: The Mega Menu Block plugin simplifies the creation of highly customizable mega menus in WordPress. 
+- **Description**: The Mega Menu Block plugin simplifies the creation of highly customizable mega menus in WordPress.
 - **Key Features**:
   - Allows easy creation of template parts for mega menus.
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
+
+### 2. [Block Editor Components](https://github.com/humanmade/block-editor-components)
+- **Description**: Package of reusable components, hooks and helper functions for the WordPress block editor(s).
+- **Key Features**:
+  - New controls including post picker, date control, file control.
+  - New components for common requirements such as text with limits.
+  - New hooks including useMeta, useBlockStyles, useSetAttribute.
+  - Other utilities functions for working with block, images and options.
+- **Installation**: This is an npm package and will not be installed via the `composer options` command.
+- **Documentation**: [Refer to project readme for more information](https://github.com/humanmade/block-editor-components).
 
 ---
 
