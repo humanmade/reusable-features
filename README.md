@@ -14,7 +14,7 @@ This repository is also a place to document other types of reusable features, su
 
 ---
 
-## Composer Installable Features
+## Composer-Installable Features
 
 ### 1. [Mega Menu Block](https://github.com/humanmade/hm-mega-menu-block)
 - **Description**: The Mega Menu Block plugin simplifies the creation of highly customizable mega menus in WordPress.
@@ -24,7 +24,7 @@ This repository is also a place to document other types of reusable features, su
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
 
-## NPM Installable Features
+## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
 - **Description**: Package of reusable components, hooks and helper functions for the WordPress block editor(s).
@@ -58,7 +58,7 @@ This repository is also a place to document other types of reusable features, su
 
 ---
 
-## Getting Started with Composer Installable Features
+## Getting Started with Composer-Installable Features
 
 Features that are not installable via composer will include their own installation instructions above.
 
@@ -86,7 +86,7 @@ This command will download and execute the `bootstrap.sh` script from GitHub, wh
 
 ## Contribution Guidelines
 
-This repository is open to contributions from the entire **Human Made (HM)** team. To contribute a composer installable feature:
+This repository is open to contributions from the entire **Human Made (HM)** team. To contribute a composer-installable feature:
 
 1. Create a new plugin or feature and publish it to a GitHub repository.
 2. Submit it to Packagist.org.
