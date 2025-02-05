@@ -60,7 +60,7 @@ This repository is also a place to document other types of reusable features, su
 
 ## Getting Started with Composer Installable Features
 
-Features that are not installable via compser will include their own installation instructions above.
+Features that are not installable via composer will include their own installation instructions above.
 
 ### Install Reusable Features via Composer
 
