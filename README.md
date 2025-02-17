@@ -23,6 +23,14 @@ This repository is also a place to document other types of reusable features, su
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
+ 
+### 1. [HM Carousel Block]([https://github.com/humanmade/hm-mega-menu-block](https://github.com/humanmade/hm-carousel-block))
+- **Description**: Lightweight carousel/slider block using [Splide](https://splidejs.com/).
+- **Key Features**:
+  - Lightweight with no dependencies. 
+  - Allows for anything to be added to the carousel slides.
+  - Lots of options for pages, navigation, transition styles etc.
+  - Splide library has good accessibility.
 
 ## NPM-Installable Features
 
