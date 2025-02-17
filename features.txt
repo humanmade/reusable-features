@@ -1,1 +1,2 @@
 Mega Menu Block|humanmade/hm-mega-menu-block
+Carousel Block|humanmade/hm-carousel-block
