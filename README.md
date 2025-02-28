@@ -16,13 +16,20 @@ This repository is also a place to document other types of reusable features, su
 
 ## Composer-Installable Features
 
-### 1. [Mega Menu Block](https://github.com/humanmade/hm-mega-menu-block)
+### [Mega Menu Block](https://github.com/humanmade/hm-mega-menu-block)
 - **Description**: The Mega Menu Block plugin simplifies the creation of highly customizable mega menus in WordPress.
 - **Key Features**:
   - Allows easy creation of template parts for mega menus.
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
+
+### [Hubspot Form Block](https://github.com/humanmade/hubspot-form-block)
+- **Description**: A basic block for embedding Hubspot forms on your website.
+- **Key Features**:
+  - Built in Google Tag Manager support with customisable form submit event names, default is `hubspot_form_submit`
+  - Hubspot tracking JS loaded in footer based on global Portal ID setting
+  - Deferred script loading for performance
 
 ## NPM-Installable Features
 
