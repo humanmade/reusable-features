@@ -25,7 +25,7 @@ This repository is also a place to document other types of reusable features, su
   - Flexible and less dependent on manual coding.
 
 ### [Hubspot Form Block](https://github.com/humanmade/hubspot-form-block)
-- **Description**: A basic block for embedding Hubspot forms on your website.
+- **Description**: A lightweight Hubspot Form embed block.
 - **Key Features**:
   - Built in Google Tag Manager support with customisable form submit event names, default is `hubspot_form_submit`
   - Hubspot tracking JS loaded in footer based on global Portal ID setting
