@@ -8,7 +8,6 @@
 - [ ] This feature has usage documentation.
 - [ ] This feature has been published on Packagist or NPM
 - [ ] [Releases following semantic versioning.](https://semver.org/)
-- [ ] Latest release is version 1.0.0 or higher.
 
 Require approval from one @principal-engineers
 
