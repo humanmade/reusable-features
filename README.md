@@ -23,6 +23,18 @@ This repository is also a place to document other types of reusable features, su
   - Supports nested groups for multi-level menus.
   - Customizable with navigation blocks, headings, and other WordPress blocks.
   - Flexible and less dependent on manual coding.
+ 
+### 2. [HM Tabs](https://github.com/humanmade/hm-tabs-block)
+- **Description**: Super simple tab block for the WordPress block editor.
+- **Key Features**:
+ - Provides a lightweight, accessible tabs block for the WordPress block editor.
+ - Uses a parent Tabs block with child Tab Item blocks for structured content.
+ - Supports any inner blocks inside each tab (text, images, custom blocks, etc.).
+ - Implements ARIA roles and keyboard navigation for accessibility.
+ - Outputs minimal, semantic HTML that degrades gracefully if the block is disabled.
+ - Includes lightweight vanilla JavaScript with no external dependencies.
+ - Unstyled by default, allowing full control via theme CSS.
+ - Exposes clear class names and state modifiers for easy custom styling and behavior control.
 
 ## NPM-Installable Features
 
