@@ -49,6 +49,18 @@ This repository is also a place to document other types of reusable features, su
   - Includes lightweight vanilla JavaScript with no external dependencies.
   - Unstyled by default, enabling full customization via theme CSS.
 
+### 4. [HM Query Loop](https://github.com/humanmade/hm-query-loop)
+- **Description**: Enhances the core WordPress Query Loop block with additional controls for more flexible and predictable queries.
+- **Key Features**:
+  - Extends the core Query Loop block without changing its default behavior.
+  - Allows overriding `posts_per_page` when inheriting the main query.
+  - Supports hiding the loop on paginated pages (e.g. display only on the first page).
+  - Provides an option to exclude posts already rendered by previous loops on the same page.
+  - Reflects query settings directly in the block editor preview.
+  - Works with both inherited main queries and custom query configurations.
+  - Exposes block context to enable conditional logic in child blocks.
+  - Lightweight implementation with clean integration into the WordPress block editor.
+ 
 ## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
