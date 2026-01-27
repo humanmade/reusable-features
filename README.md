@@ -61,6 +61,18 @@ This repository is also a place to document other types of reusable features, su
   - Exposes block context to enable conditional logic in child blocks.
   - Lightweight implementation with clean integration into the WordPress block editor.
  
+### 5. [HM Carousel Block](https://github.com/humanmade/hm-carousel-block)
+- **Description**: Lightweight carousel block for the WordPress block editor, designed to build flexible and accessible sliders using blocks.
+- **Key Features**:
+  - Provides a native carousel/slider block for the Gutenberg editor.
+  - Allows any inner blocks inside each slide (text, images, patterns, custom blocks).
+  - Built on a lightweight carousel implementation with minimal JavaScript.
+  - Supports responsive layouts with touch and swipe interactions.
+  - Includes navigation controls such as arrows and pagination.
+  - Outputs clean, minimal markup aligned with WordPress block standards.
+  - Unstyled by default, giving full control over appearance via theme CSS.
+  - Easy to extend and customize for different carousel use cases.
+ 
 ## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
