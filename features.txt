@@ -7,6 +7,3 @@ URL Tabs|humanmade/hm-url-tabs
 Responsive Media Cover Block|humanmade/responsive-media-cover-block
 Table Post Template|humanmade/post-template-table
 Query Filter|humanmade/query-filter
-Altis Reusable Blocks|humanmade/altis-reusable-blocks
-HM Gutenberg Tools|humanmade/hm-gutenberg-tools
-HM TOC|humanmade/hm-toc
