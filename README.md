@@ -72,7 +72,20 @@ This repository is also a place to document other types of reusable features, su
   - Outputs clean, minimal markup aligned with WordPress block standards.
   - Unstyled by default, giving full control over appearance via theme CSS.
   - Easy to extend and customize for different carousel use cases.
+
+ ### 6. [HM URL Tabs](https://github.com/humanmade/hm-url-tabs)
+- **Description**: WordPress plugin that enables URL-driven tabs using core navigation blocks and rewrite endpoints.
+- **Key Features**:
+  - Extends the core `navigation-link` block with tab-specific link variations.
+  - Supports Home Tab, Base Tab, and Tab link types for structured tab navigation.
+  - Uses URL endpoints to control tab state (e.g. `/page/tab/value/`).
+  - Registers rewrite endpoints to enable server-side awareness of the active tab.
+  - Adds a Tab Visibility panel to blocks to control which content appears per tab.
+  - Automatically applies an active state class to the current tab link.
+  - Fully compatible with core block editor patterns and navigation blocks.
+  - Lightweight, logic-driven approach without relying on heavy client-side JavaScript.
  
+
 ## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
