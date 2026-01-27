@@ -120,6 +120,16 @@ This repository is also a place to document other types of reusable features, su
   - Integrates seamlessly with the core Query Loop block.
   - Outputs clean, minimal markup for full styling control via theme CSS.
  
+### 10. [Responsive Media Cover Block](https://github.com/humanmade/responsive-media-cover-block)
+- **Description**: Extends the core WordPress Cover block to support different media for mobile and desktop devices.
+- **Key Features**:
+  - Adds a mobile-specific image or video option to the core Cover block.
+  - Optimizes responsive behavior by serving appropriate media per screen size.
+  - Integrates seamlessly into the existing Cover block editor UI.
+  - Preserves core Cover block output if the plugin is disabled.
+  - Provides filters to customize breakpoints and media sizes.
+  - Lightweight implementation with minimal performance impact.
+ 
 
 ## NPM-Installable Features
 
