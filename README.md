@@ -129,8 +129,8 @@ This repository is also a place to document other types of reusable features, su
   - Preserves core Cover block output if the plugin is disabled.
   - Provides filters to customize breakpoints and media sizes.
   - Lightweight implementation with minimal performance impact.
- 
 
+ 
 ## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
