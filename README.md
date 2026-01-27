@@ -63,7 +63,7 @@ This repository is also a place to document other types of reusable features, su
 
 ## Documented Project Features
 
-### [Harvard Gazette](https://github.com/wpcomvip/harvard-university-news)
+### [HG](https://github.com/wpcomvip/harvard-university-news)
 - **Description**: The Harvard Gazette site has many interesting features that should be abstracted out in the future. In the meantime, please reach out to the **Americas Squad** for help with any of the following features.
 - **Key Features**:
   - **Color palette picker** - Intended to replace the text/background color pickers. Allows the content editor to choose a color palette at the post or block level. Automatically sets text, UI, and background colors based on pre-selected accessible color combinations.
