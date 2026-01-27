@@ -79,7 +79,7 @@ This repository is also a place to document other types of reusable features, su
   - **Full screen slide scroll replace block** - Similar to the image scroll replace block, you can create full screen slides of content that pause in place while you scroll the page.
   - **Stats block** - Only allows the stats text block, a custom paragraph style with different size and font options for displaying statistic cards.
   - **Tabs block** - Accessible tabs. Includes linked tabs and their display cards. Also supports adding direct links to the list of tabs.
-- **Installation**: These features live within the Harvard Gazette repo and will require extraction and abstraction to be used elsewhere. Please reach out to the **Americas Squad** if you need support.
+- **Installation**: These features live within the repo and will require extraction and abstraction to be used elsewhere. Please reach out to the **Americas Squad** if you need support.
 
 ---
 
