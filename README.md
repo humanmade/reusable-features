@@ -27,14 +27,27 @@ This repository is also a place to document other types of reusable features, su
 ### 2. [HM Tabs](https://github.com/humanmade/hm-tabs-block)
 - **Description**: Super simple tab block for the WordPress block editor.
 - **Key Features**:
- - Provides a lightweight, accessible tabs block for the WordPress block editor.
- - Uses a parent Tabs block with child Tab Item blocks for structured content.
- - Supports any inner blocks inside each tab (text, images, custom blocks, etc.).
- - Implements ARIA roles and keyboard navigation for accessibility.
- - Outputs minimal, semantic HTML that degrades gracefully if the block is disabled.
- - Includes lightweight vanilla JavaScript with no external dependencies.
- - Unstyled by default, allowing full control via theme CSS.
- - Exposes clear class names and state modifiers for easy custom styling and behavior control.
+  - Provides a lightweight, accessible tabs block for the WordPress block editor.
+  - Uses a parent Tabs block with child Tab Item blocks for structured content.
+  - Supports any inner blocks inside each tab (text, images, custom blocks, etc.).
+  - Implements ARIA roles and keyboard navigation for accessibility.
+  - Outputs minimal, semantic HTML that degrades gracefully if the block is disabled.
+  - Includes lightweight vanilla JavaScript with no external dependencies.
+  - Unstyled by default, allowing full control via theme CSS.
+  - Exposes clear class names and state modifiers for easy custom styling and behavior control.
+ 
+### 3. [HM Modal Block](https://github.com/humanmade/hm-modal-block/tree/hm-modal-plugin-creation)
+- **Description**: Super simple modal block for the WordPress block editor.
+- **Key Features**:
+  - Provides a lightweight modal/dialog block for the WordPress block editor.
+  - Uses separate blocks for the modal trigger and modal content.
+  - Supports any inner blocks inside both the trigger and modal (text, media, custom blocks, etc.).
+  - Implements accessible behavior including focus trapping and keyboard navigation.
+  - Allows closing the modal via overlay click or Escape key.
+  - Automatically pauses embedded media (videos/iframes) when the modal is closed.
+  - Outputs clean, semantic HTML aligned with WordPress core block patterns.
+  - Includes lightweight vanilla JavaScript with no external dependencies.
+  - Unstyled by default, enabling full customization via theme CSS.
 
 ## NPM-Installable Features
 
