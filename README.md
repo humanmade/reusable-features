@@ -96,6 +96,18 @@ This repository is also a place to document other types of reusable features, su
   - Enables consistent asset organization across themes and plugins.
   - Lightweight abstraction over WordPress core asset and block registration APIs.
  
+  ### 8. [Query Filter](https://github.com/humanmade/query-filter)
+- **Description**: Adds dynamic filtering capabilities to the WordPress Query Loop block using block-based controls.
+- **Key Features**:
+  - Provides filter blocks that work alongside the core Query Loop block.
+  - Supports filtering results by taxonomy terms.
+  - Includes post type filtering for narrowing displayed content.
+  - Integrates with the core Search block for keyword-based filtering.
+  - Uses the WordPress Interactivity API for dynamic, client-side updates.
+  - Updates query results without full page reloads.
+  - Compatible with the core Query Loop and extended query loop implementations.
+  - Lightweight, editor-friendly solution with clean block editor integration.
+ 
 
 ## NPM-Installable Features
 
