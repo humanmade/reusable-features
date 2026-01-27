@@ -81,11 +81,6 @@ This repository is also a place to document other types of reusable features, su
   - **Tabs block** - Accessible tabs. Includes linked tabs and their display cards. Also supports adding direct links to the list of tabs.
 - **Installation**: These features live within the Harvard Gazette repo and will require extraction and abstraction to be used elsewhere. Please reach out to the **Americas Squad** if you need support.
 
-### [Docebo](https://github.com/humanmade/docebo-phoenix/tree/main/content/themes/phoenix/)
-- **Key Features**:
-   - **Modal content** - Add "Modal" block with "content" and "trigger" child blocks
-
-
 ---
 
 ## Getting Started with Composer-Installable Features
