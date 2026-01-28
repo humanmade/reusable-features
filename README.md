@@ -166,7 +166,7 @@ This repository is also a place to document other types of reusable features, su
   - **De-duplication between featured article blocks** - Adds options to pass post IDs between blocks. Used to prevent duplication of posts on templates with multiple featured article blocks.
   - **Supporting content column** - Pulls inline content elements into the traditional sidebar area on desktop, but maintains the source order to display them in between the surrounding content on mobile.
   - **Accordion block** - Adds a JS accordion block with repeatable inner accordion item block. Improves accessibility and styleability vs using the details block.
-  - **Carousel block** - An accessible carousel that can be used for images or cards with content.
+  - ˜˜**Carousel block** - An accessible carousel that can be used for images or cards with content.˜˜ - there's an HM plugin for it already
   - **Featured articles block** - Choose an auto-generated list of posts by taxonomy item or a manually curated list of posts. For the manually curated list, supports choosing a custom featured image and entering a custom title. Also supports passing post IDS for deduplication (see above).
   - **Image scroll replace block** - Scroll a series of images into place, either one atop another or side-by-side. Uses GSAP ScrollTrigger to manage the scroll animation.
   - **Full screen slide scroll replace block** - Similar to the image scroll replace block, you can create full screen slides of content that pause in place while you scroll the page.
