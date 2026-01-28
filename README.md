@@ -130,7 +130,7 @@ This repository is also a place to document other types of reusable features, su
   - Provides filters to customize breakpoints and media sizes.
   - Lightweight implementation with minimal performance impact.
  
-### 11. Color Palette (https://github.com/humanmade/color-palette/tree/color-palette-creation)
+### 11. [Color Palette](https://github.com/humanmade/color-palette/tree/color-palette-creation)
 - **Description**: A WordPress plugin that provides a **block editor UI for managing global color palettes**, making it easier for editors to customize and reuse colors consistently across a site.
 - **Key Features**:
   - Adds a **Global Color Palette** panel to the WordPress block editor settings.
