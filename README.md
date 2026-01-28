@@ -129,6 +129,17 @@ This repository is also a place to document other types of reusable features, su
   - Preserves core Cover block output if the plugin is disabled.
   - Provides filters to customize breakpoints and media sizes.
   - Lightweight implementation with minimal performance impact.
+ 
+### 11. Color Palette (https://github.com/humanmade/color-palette/tree/color-palette-creation)
+- **Description**: A WordPress plugin that provides a **block editor UI for managing global color palettes**, making it easier for editors to customize and reuse colors consistently across a site.
+- **Key Features**:
+  - Adds a **Global Color Palette** panel to the WordPress block editor settings.
+  - Lets editors **add, edit, and remove colors** from the palette.
+  - Automatically generates **CSS custom properties** (`--wp--preset--color--*`) for use throughout blocks and themes.
+  - Integrates seamlessly with the core editor design tools and color pickers.
+  - Supports importing and exporting color palettes via JSON.
+  - Offers a consistent API for theme developers to **extend and enforce palette controls**.
+  - Lightweight and focused on enhancing editor UX around colors.
 
  
 ## NPM-Installable Features
