@@ -7,3 +7,4 @@ URL Tabs|humanmade/hm-url-tabs
 Responsive Media Cover Block|humanmade/responsive-media-cover-block
 Table Post Template|humanmade/post-template-table
 Query Filter|humanmade/query-filter
+Hubspot Form Block|humanmade/hubspot-form-block

@@ -141,6 +141,13 @@ This repository is also a place to document other types of reusable features, su
   - Offers a consistent API for theme developers to **extend and enforce palette controls**.
   - Lightweight and focused on enhancing editor UX around colors.
 
+### 12 [Hubspot Form Block](https://github.com/humanmade/hubspot-form-block)
+- **Description**: A lightweight Hubspot Form embed block.
+- **Key Features**:
+  - Built in Google Tag Manager support with customisable form submit event names, default is `hubspot_form_submit`
+  - Hubspot tracking JS loaded in footer based on global Portal ID setting
+  - Deferred script loading for performance
+
  
 ## NPM-Installable Features
 
