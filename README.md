@@ -36,7 +36,7 @@ This repository is also a place to document other types of reusable features, su
   - Unstyled by default, allowing full control via theme CSS.
   - Exposes clear class names and state modifiers for easy custom styling and behavior control.
  
-### 3. [HM Modal Block](https://github.com/humanmade/hm-modal-block/tree/hm-modal-plugin-creation)
+### 3. [HM Modal Block](https://github.com/humanmade/hm-modal-block)
 - **Description**: Super simple modal block for the WordPress block editor.
 - **Key Features**:
   - Provides a lightweight modal/dialog block for the WordPress block editor.
