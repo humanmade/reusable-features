@@ -177,6 +177,17 @@ This repository is also a place to document other types of reusable features, su
   - Plays a lightweight **CSS preview in the editor canvas** (no GSAP in the editor, zero JS overhead).
   - Uses [Splitting.js](https://splitting.js.org/) for split-text effects at runtime only — saved HTML is never modified, avoiding conflicts with the block editor or React.
 
+ ### 16. [HM External Links](https://github.com/humanmade/hm-external-links)
+- **Description**: A WordPress plugin that **automatically detects and handles external links sitewide** — no configuration needed. Scans all links on every page load and applies safe, accessible defaults without touching theme or block markup.
+- **Key Features**:
+  - Automatically opens external links in a **new tab** (`target="_blank"`).
+  - Adds `rel="noopener noreferrer"` to all external links, **preserving any existing `rel` values**.
+  - Optionally displays an **external link icon** after links in `header`, `footer`, and navigation items (enabled by default, toggled via filter).
+  - Handles links added **dynamically after page load** (e.g. via AJAX or the Interactivity API).
+  - Icon appearance is fully customisable via **CSS custom properties** (`--arrow-size`, `--arrow-margin`, `--hm-external-icon-url`).
+  - Ships with a compiled `build/` directory — **no build step required** to install.
+  - Installable by dropping into `wp-content/plugins/` or `client-mu-plugins/`.
+
  
 ## NPM-Installable Features
 
