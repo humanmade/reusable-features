@@ -154,6 +154,28 @@ This repository is also a place to document other types of reusable features, su
   - Built in Google Tag Manager support with customisable form submit event names, default is `hubspot_form_submit`
   - Hubspot tracking JS loaded in footer based on global Portal ID setting
   - Deferred script loading for performance
+ 
+### 14. [HM Split Background](https://github.com/humanmade/hm-split-background)
+- **Description**: A WordPress plugin that adds a **Split Background** panel to the `core/group` block, letting editors apply a hard-edge two-colour vertical split without touching CSS or fighting the native gradient picker.
+- **Key Features**:
+  - Adds a **Split Background** toggle to the **Styles** tab of any Group block.
+  - Lets editors **pick two colours from the theme palette** and drag a range control to set the split position (0–100%).
+  - Writes to the standard `style.color.gradient` attribute — **fully compatible with existing gradient tooling** and produces no extra markup.
+  - Disabling the toggle cleanly clears the gradient.
+  - Requires WordPress 6.5+ and PHP 8.0+.
+  - Installable via Composer pointing at the `release` branch (compiled assets included).
+
+### 15. [HM GSAP Animations](https://github.com/humanmade/hm-gsap-animations)
+- **Description**: A WordPress plugin that adds **GSAP-powered animation controls** to core and custom blocks via the Gutenberg block editor, allowing editors to configure scroll and load animations entirely from the Inspector panel — no code required.
+- **Key Features**:
+  - Injects a **"GSAP Animation" panel** into the Inspector sidebar of every supported block via `addFilter`.
+  - Supports two animation modes: **Transition** (plays once on scroll or page load) and **Scroll Scrub** (animation progress tied 1-to-1 to scroll position).
+  - Ships with a rich set of animation presets: `fade-up/down/left/right`, `zoom-in/out`, `flip-x/y`, `count-up`, `parallax-background`, `split-words`, `split-chars`, and `hover` effects (lift, grow, shrink, tilt, brighten, dim).
+  - Full **Inspector panel controls** for trigger, duration, delay, easing, stagger, scroll start/end markers, scrub smoothing, and parallax speed.
+  - Extends to custom blocks via `block.json` supports (`hmGsapAnimations`) or a PHP filter (`hm_gsap_animations_supported_blocks`), with granular feature flags for stagger, count-up, parallax, and split text.
+  - Respects `prefers-reduced-motion` — all animations are skipped entirely when the OS "Reduce motion" setting is enabled.
+  - Plays a lightweight **CSS preview in the editor canvas** (no GSAP in the editor, zero JS overhead).
+  - Uses [Splitting.js](https://splitting.js.org/) for split-text effects at runtime only — saved HTML is never modified, avoiding conflicts with the block editor or React.
 
  
 ## NPM-Installable Features
