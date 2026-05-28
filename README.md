@@ -188,6 +188,102 @@ This repository is also a place to document other types of reusable features, su
   - Ships with a compiled `build/` directory — **no build step required** to install.
   - Installable by dropping into `wp-content/plugins/` or `client-mu-plugins/`.
 
+
+### 17. [Workflows](https://github.com/humanmade/Workflows)
+
+- **Description**: A flexible event and notification framework for WordPress. Allows teams to define automated workflows that listen to specific events and notify the right people through the right channels — in code or via the WordPress admin.
+- **Key Features**:
+  * Simple chainable API: define when an action triggers, what message to send, who receives it, and where it goes.
+  * Built-in destinations: email, WordPress dashboard notifications, and Slack.
+  * Extensible — create custom destinations to post to any CRM, issue tracker, or chat application.
+  * Built-in events: post publish, post status change, new comment, new editorial comment.
+  * Editorial comments and assignees — discuss content and assign responsibility directly within the post edit screen.
+  * Workflows can be defined in code or configured via the WordPress admin UI.
+
+
+### 18. [extended-block-variations](https://github.com/humanmade/extended-block-variations)
+
+- **Description**: Adds support for per-block-variation CSS files, conditionally enqueued only when that variation is active on the page, fully compatible with WordPress's CSS inlining support.
+- **Key Features**:
+  * Per-variation CSS loading — styles only ship to the browser when the variation is in use.
+  * Compatible with WordPress core CSS inlining for performance.
+  * Reduces unused CSS across sites with many block variations.
+
+
+### 19. [hm-block-gradient-border](https://github.com/humanmade/hm-block-gradient-border)
+
+- **Description**: Adds gradient border style controls to WordPress core blocks via the block editor, with no extra markup on the frontend.
+- **Key Features**:
+  * Gradient border support added to core blocks directly from the Inspector panel.
+  * Pure CSS output — no additional wrapper elements.
+  * Integrates cleanly with existing block editor styling controls.
+
+
+### 20. [hm-block-interactivity](https://github.com/humanmade/hm-block-interactivity)
+
+- **Description**: Click, hover, and CSS-class-driven show/hide/toggle for WordPress blocks using the native WP Interactivity API — no custom JavaScript required.
+- **Key Features**:
+  * Show/hide/toggle behaviours configured entirely from the block editor.
+  * Supports click, hover, and CSS class triggers.
+  * Built on the native WP Interactivity API — no external JavaScript dependencies.
+
+
+### 21. [hm-block-hash-tabs](https://github.com/humanmade/hm-block-hash-tabs)
+
+- **Description**: URL-hash-driven tab panels for WordPress group blocks, enabling deep-linkable and shareable tab state.
+- **Key Features**:
+  * Tab state controlled by URL hash for shareable, bookmarkable links.
+  * Built on WordPress core group blocks — no new block types to manage.
+  * Lightweight vanilla JavaScript with no external dependencies.
+
+
+### 22. [hm-block-advanced-background](https://github.com/humanmade/hm-block-advanced-background)
+
+- **Description**: Adds stacked CSS background layers and backdrop blur support to WordPress group blocks from the block editor.
+- **Key Features**:
+  * Multiple background layers on a single group block.
+  * Backdrop blur support without custom CSS.
+  * No extra markup — output is pure CSS applied to the existing group element.
+
+
+### 23. [hm-popup-block](https://github.com/humanmade/hm-popup-block)
+
+- **Description**: A lightweight, accessible popup block for the WordPress block editor, built on the native HTML `<dialog>` element.
+- **Key Features**:
+  * Built on `<dialog>` — accessibility and focus management handled natively by the browser.
+  * Supports any inner blocks inside the popup content area.
+  * Lightweight vanilla JavaScript with no external dependencies.
+  * Unstyled by default for full theme control.
+
+
+### 24. [asset-loader](https://github.com/humanmade/asset-loader)
+
+- **Description**: PHP utility library for WordPress that simplifies including dynamic Webpack-generated assets in themes and plugins.
+- **Key Features**:
+  * Reads `.asset.php` files to handle script dependencies and versions automatically.
+  * Works seamlessly with `@wordpress/scripts` build output.
+  * Supports loading assets for custom blocks, block extensions, and global theme/plugin scripts.
+  * Enables consistent asset organisation across themes and plugins.
+
+
+### 25. [hm-scroll-synced-zoom-block](https://github.com/humanmade/hm-scroll-synced-zoom-block)
+
+- **Description**: A WordPress block that scales its contents on scroll, with an optional pinning mode that locks content into a modal-style spotlight at a defined scroll position.
+- **Key Features**:
+  * Scroll-driven zoom animation configurable from the block editor.
+  * Optional modal/spotlight pin at a defined scroll position for immersive storytelling layouts.
+  * No JavaScript framework dependency.
+
+
+### 26. [hm-rt-carousel-extension](https://github.com/humanmade/hm-rt-carousel-extension)
+
+- **Description**: Extends the `rt-carousel` block with spacing supports, a theme preset slide-gap picker, and frontend styles.
+- **Key Features**:
+  * Adds spacing and gap controls to the block editor for `rt-carousel`.
+  * Applies theme preset values for consistent design system alignment.
+  * Drop-in extension — no changes to the base `rt-carousel` plugin required.
+
+
  
 ## NPM-Installable Features
 
