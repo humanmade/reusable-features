@@ -1,4 +1,3 @@
-
 # Reusable Features
 
 The **Reusable Features** repository is designed to streamline development by consolidating features into reusable plugins and scripts. These features can be integrated into various projects, reducing development time and effort.
@@ -8,6 +7,7 @@ This repository is an Americas Squad's initiative, created to promote efficiency
 ---
 
 ## How It Works
+
 The repository allows developers to install reusable features via Composer, providing an easy way to include various tools and plugins in their projects. After installation, developers can run a custom Composer command to bootstrap their environment and activate the desired features.
 
 This repository is also a place to document other types of reusable features, such as npm packages and features we'd like to abstract to a plugin in the future.
@@ -17,304 +17,335 @@ This repository is also a place to document other types of reusable features, su
 ## Composer-Installable Features
 
 ### 1. [Mega Menu Block](https://github.com/humanmade/hm-mega-menu-block)
+
 - **Description**: The Mega Menu Block plugin simplifies the creation of highly customizable mega menus in WordPress.
 - **Key Features**:
-  - Allows easy creation of template parts for mega menus.
-  - Supports nested groups for multi-level menus.
-  - Customizable with navigation blocks, headings, and other WordPress blocks.
-  - Flexible and less dependent on manual coding.
- 
+    - Allows easy creation of template parts for mega menus.
+    - Supports nested groups for multi-level menus.
+    - Customizable with navigation blocks, headings, and other WordPress blocks.
+    - Flexible and less dependent on manual coding.
+
 ### 2. [HM Tabs](https://github.com/humanmade/hm-tabs-block)
+
 - **Description**: Super simple tab block for the WordPress block editor.
 - **Key Features**:
-  - Provides a lightweight, accessible tabs block for the WordPress block editor.
-  - Uses a parent Tabs block with child Tab Item blocks for structured content.
-  - Supports any inner blocks inside each tab (text, images, custom blocks, etc.).
-  - Implements ARIA roles and keyboard navigation for accessibility.
-  - Outputs minimal, semantic HTML that degrades gracefully if the block is disabled.
-  - Includes lightweight vanilla JavaScript with no external dependencies.
-  - Unstyled by default, allowing full control via theme CSS.
-  - Exposes clear class names and state modifiers for easy custom styling and behavior control.
- 
-### 3. [HM Modal Block](https://github.com/humanmade/hm-modal-block)
+    - Provides a lightweight, accessible tabs block for the WordPress block editor.
+    - Uses a parent Tabs block with child Tab Item blocks for structured content.
+    - Supports any inner blocks inside each tab (text, images, custom blocks, etc.).
+    - Implements ARIA roles and keyboard navigation for accessibility.
+    - Outputs minimal, semantic HTML that degrades gracefully if the block is disabled.
+    - Includes lightweight vanilla JavaScript with no external dependencies.
+    - Unstyled by default, allowing full control via theme CSS.
+    - Exposes clear class names and state modifiers for easy custom styling and behavior control.
+
+### 3. [HM Modal Block](https://github.com/humanmade/modal-block)
+
 - **Description**: Super simple modal block for the WordPress block editor.
 - **Key Features**:
-  - Provides a lightweight modal/dialog block for the WordPress block editor.
-  - Uses separate blocks for the modal trigger and modal content.
-  - Supports any inner blocks inside both the trigger and modal (text, media, custom blocks, etc.).
-  - Implements accessible behavior including focus trapping and keyboard navigation.
-  - Allows closing the modal via overlay click or Escape key.
-  - Automatically pauses embedded media (videos/iframes) when the modal is closed.
-  - Outputs clean, semantic HTML aligned with WordPress core block patterns.
-  - Includes lightweight vanilla JavaScript with no external dependencies.
-  - Unstyled by default, enabling full customization via theme CSS.
+    - Provides a lightweight modal/dialog block for the WordPress block editor.
+    - Uses separate blocks for the modal trigger and modal content.
+    - Supports any inner blocks inside both the trigger and modal (text, media, custom blocks, etc.).
+    - Implements accessible behavior including focus trapping and keyboard navigation.
+    - Allows closing the modal via overlay click or Escape key.
+    - Automatically pauses embedded media (videos/iframes) when the modal is closed.
+    - Outputs clean, semantic HTML aligned with WordPress core block patterns.
+    - Includes lightweight vanilla JavaScript with no external dependencies.
+    - Unstyled by default, enabling full customization via theme CSS.
 
 ### 4. [HM Query Loop](https://github.com/humanmade/hm-query-loop)
+
 - **Description**: Enhances the core WordPress Query Loop block with additional controls for more flexible and predictable queries.
 - **Key Features**:
-  - Extends the core Query Loop block without changing its default behavior.
-  - Allows overriding `posts_per_page` when inheriting the main query.
-  - Supports hiding the loop on paginated pages (e.g. display only on the first page).
-  - Provides an option to exclude posts already rendered by previous loops on the same page.
-  - Reflects query settings directly in the block editor preview.
-  - Works with both inherited main queries and custom query configurations.
-  - Exposes block context to enable conditional logic in child blocks.
-  - Lightweight implementation with clean integration into the WordPress block editor.
- 
+    - Extends the core Query Loop block without changing its default behavior.
+    - Allows overriding `posts_per_page` when inheriting the main query.
+    - Supports hiding the loop on paginated pages (e.g. display only on the first page).
+    - Provides an option to exclude posts already rendered by previous loops on the same page.
+    - Reflects query settings directly in the block editor preview.
+    - Works with both inherited main queries and custom query configurations.
+    - Exposes block context to enable conditional logic in child blocks.
+    - Lightweight implementation with clean integration into the WordPress block editor.
+
 ### 5. [HM Carousel Block](https://github.com/humanmade/hm-carousel-block)
+
 - **Description**: Lightweight carousel block for the WordPress block editor, designed to build flexible and accessible sliders using blocks.
 - **Key Features**:
-  - Provides a native carousel/slider block for the Gutenberg editor.
-  - Allows any inner blocks inside each slide (text, images, patterns, custom blocks).
-  - Supports using the Query Loop block to create a carousel of posts.
-  - Built on a lightweight carousel implementation with minimal JavaScript.
-  - Supports responsive layouts with touch and swipe interactions.
-  - Includes navigation controls such as arrows and pagination.
-  - Outputs clean, minimal markup aligned with WordPress block standards.
-  - Unstyled by default, giving full control over appearance via theme CSS.
-  - Easy to extend and customize for different carousel use cases.
+    - Provides a native carousel/slider block for the Gutenberg editor.
+    - Allows any inner blocks inside each slide (text, images, patterns, custom blocks).
+    - Supports using the Query Loop block to create a carousel of posts.
+    - Built on a lightweight carousel implementation with minimal JavaScript.
+    - Supports responsive layouts with touch and swipe interactions.
+    - Includes navigation controls such as arrows and pagination.
+    - Outputs clean, minimal markup aligned with WordPress block standards.
+    - Unstyled by default, giving full control over appearance via theme CSS.
+    - Easy to extend and customize for different carousel use cases.
 
 ### 6. [HM URL Tabs](https://github.com/humanmade/hm-url-tabs)
+
 - **Description**: WordPress plugin that enables URL-driven tabs using core navigation blocks and rewrite endpoints.
 - **Key Features**:
-  - Extends the core `navigation-link` block with tab-specific link variations.
-  - Supports Home Tab, Base Tab, and Tab link types for structured tab navigation.
-  - Uses URL endpoints to control tab state (e.g. `/page/tab/value/`).
-  - Registers rewrite endpoints to enable server-side awareness of the active tab.
-  - Adds a Tab Visibility panel to blocks to control which content appears per tab.
-  - Automatically applies an active state class to the current tab link.
-  - Fully compatible with core block editor patterns and navigation blocks.
-  - Lightweight, logic-driven approach without relying on heavy client-side JavaScript.
- 
+    - Extends the core `navigation-link` block with tab-specific link variations.
+    - Supports Home Tab, Base Tab, and Tab link types for structured tab navigation.
+    - Uses URL endpoints to control tab state (e.g. `/page/tab/value/`).
+    - Registers rewrite endpoints to enable server-side awareness of the active tab.
+    - Adds a Tab Visibility panel to blocks to control which content appears per tab.
+    - Automatically applies an active state class to the current tab link.
+    - Fully compatible with core block editor patterns and navigation blocks.
+    - Lightweight, logic-driven approach without relying on heavy client-side JavaScript.
+
 ### 7. [Primary Category Block](https://github.com/humanmade/primary-category)
+
 - **Description**: WordPress plugin that adds a primary category block.
 - **Key Features**:
-  - Displays the primary category for a post
-  - Supports Yoast SEO primary category selection
- 
+    - Displays the primary category for a post
+    - Supports Yoast SEO primary category selection
+
 ### 8. [WP Scripts Asset Loader](https://github.com/humanmade/wp-scripts-asset-loader)
+
 - **Description**: Utility library for loading and managing assets built with `@wordpress/scripts` in WordPress themes and plugins.
 - **Key Features**:
-  - Simplifies enqueuing JavaScript and CSS generated by `@wordpress/scripts`.
-  - Automatically reads `.asset.php` files to handle script dependencies and versions.
-  - Supports loading assets for custom blocks, block extensions, and global theme/plugin scripts.
-  - Allows extending existing blocks by overloading `block.json` metadata without re-registering blocks.
-  - Works seamlessly with standard WordPress build and enqueue workflows.
-  - Enables consistent asset organization across themes and plugins.
-  - Lightweight abstraction over WordPress core asset and block registration APIs.
- 
+    - Simplifies enqueuing JavaScript and CSS generated by `@wordpress/scripts`.
+    - Automatically reads `.asset.php` files to handle script dependencies and versions.
+    - Supports loading assets for custom blocks, block extensions, and global theme/plugin scripts.
+    - Allows extending existing blocks by overloading `block.json` metadata without re-registering blocks.
+    - Works seamlessly with standard WordPress build and enqueue workflows.
+    - Enables consistent asset organization across themes and plugins.
+    - Lightweight abstraction over WordPress core asset and block registration APIs.
+
 ### 9. [Query Filter](https://github.com/humanmade/query-filter)
+
 - **Description**: Adds dynamic filtering capabilities to the WordPress Query Loop block using block-based controls.
 - **Key Features**:
-  - Provides filter blocks that work alongside the core Query Loop block.
-  - Supports filtering results by taxonomy terms.
-  - Includes post type filtering for narrowing displayed content.
-  - Integrates with the core Search block for keyword-based filtering.
-  - Uses the WordPress Interactivity API for dynamic, client-side updates.
-  - Updates query results without full page reloads.
-  - Compatible with the core Query Loop and extended query loop implementations.
-  - Lightweight, editor-friendly solution with clean block editor integration.
- 
+    - Provides filter blocks that work alongside the core Query Loop block.
+    - Supports filtering results by taxonomy terms.
+    - Includes post type filtering for narrowing displayed content.
+    - Integrates with the core Search block for keyword-based filtering.
+    - Uses the WordPress Interactivity API for dynamic, client-side updates.
+    - Updates query results without full page reloads.
+    - Compatible with the core Query Loop and extended query loop implementations.
+    - Lightweight, editor-friendly solution with clean block editor integration.
+
 ### 10. [Post Template Table](https://github.com/humanmade/post-template-table)
+
 - **Description**: Table-based alternative to the core `post-template` block for displaying Query Loop results in a structured layout.
 - **Key Features**:
-  - Renders Query Loop posts as a HTML table, with each post represented as a row.
-  - Uses inner blocks as table columns for flexible data presentation.
-  - Allows reordering columns directly from block controls.
-  - Supports custom column header labels.
-  - Provides an option to show or hide the table header row.
-  - Compatible with core post-related blocks (title, date, excerpt, featured image, author, terms, etc.).
-  - Integrates seamlessly with the core Query Loop block.
-  - Outputs clean, minimal markup for full styling control via theme CSS.
- 
+    - Renders Query Loop posts as a HTML table, with each post represented as a row.
+    - Uses inner blocks as table columns for flexible data presentation.
+    - Allows reordering columns directly from block controls.
+    - Supports custom column header labels.
+    - Provides an option to show or hide the table header row.
+    - Compatible with core post-related blocks (title, date, excerpt, featured image, author, terms, etc.).
+    - Integrates seamlessly with the core Query Loop block.
+    - Outputs clean, minimal markup for full styling control via theme CSS.
+
 ### 11. [Responsive Media Cover Block](https://github.com/humanmade/responsive-media-cover-block)
+
 - **Description**: Extends the core WordPress Cover block to support different media for mobile and desktop devices.
 - **Key Features**:
-  - Adds a mobile-specific image or video option to the core Cover block.
-  - Optimizes responsive behavior by serving appropriate media per screen size.
-  - Integrates seamlessly into the existing Cover block editor UI.
-  - Preserves core Cover block output if the plugin is disabled.
-  - Provides filters to customize breakpoints and media sizes.
-  - Lightweight implementation with minimal performance impact.
- 
-### 12. [Color Palette](https://github.com/humanmade/color-palette/tree/color-palette-creation)
-- **Description**: A WordPress plugin that provides a **block editor UI for managing global color palettes**, making it easier for editors to customize and reuse colors consistently across a site.
+    - Adds a mobile-specific image or video option to the core Cover block.
+    - Optimizes responsive behavior by serving appropriate media per screen size.
+    - Integrates seamlessly into the existing Cover block editor UI.
+    - Preserves core Cover block output if the plugin is disabled.
+    - Provides filters to customize breakpoints and media sizes.
+    - Lightweight implementation with minimal performance impact.
+
+### 12. [HM Color Palette](https://github.com/humanmade/hm-color-palette)
+
+- **Description**: A WordPress plugin that adds a per-post color palette selector to the block editor, allowing editors to apply a named color scheme to individual posts or pages.
 - **Key Features**:
-  - Adds a **Global Color Palette** panel to the WordPress block editor settings.
-  - Lets editors **add, edit, and remove colors** from the palette.
-  - Automatically generates **CSS custom properties** (`--wp--preset--color--*`) for use throughout blocks and themes.
-  - Integrates seamlessly with the core editor design tools and color pickers.
-  - Supports importing and exporting color palettes via JSON.
-  - Offers a consistent API for theme developers to **extend and enforce palette controls**.
-  - Lightweight and focused on enhancing editor UX around colors.
+    - Adds a color palette selector to the block editor for per-post color scheme selection.
+    - Registers a `document_color_palette` post meta field exposed via the REST API.
+    - Injects a `has-{palette}-color-palette` body class on the front end for CSS targeting.
+    - Reads available palette options from `theme.json` automatically.
+    - Exposes an `hm_color_palette_options` filter for customizing available palette choices per project.
+    - Integrates seamlessly with the core editor UI and design tools.
 
 ### 13. [Hubspot Form Block](https://github.com/humanmade/hubspot-form-block)
+
 - **Description**: A lightweight Hubspot Form embed block.
 - **Key Features**:
-  - Built in Google Tag Manager support with customisable form submit event names, default is `hubspot_form_submit`
-  - Hubspot tracking JS loaded in footer based on global Portal ID setting
-  - Deferred script loading for performance
- 
+    - Built in Google Tag Manager support with customisable form submit event names, default is `hubspot_form_submit`
+    - Hubspot tracking JS loaded in footer based on global Portal ID setting
+    - Deferred script loading for performance
+
 ### 14. [HM Split Background](https://github.com/humanmade/hm-split-background)
+
 - **Description**: A WordPress plugin that adds a **Split Background** panel to the `core/group` block, letting editors apply a hard-edge two-colour vertical split without touching CSS or fighting the native gradient picker.
 - **Key Features**:
-  - Adds a **Split Background** toggle to the **Styles** tab of any Group block.
-  - Lets editors **pick two colours from the theme palette** and drag a range control to set the split position (0–100%).
-  - Writes to the standard `style.color.gradient` attribute — **fully compatible with existing gradient tooling** and produces no extra markup.
-  - Disabling the toggle cleanly clears the gradient.
-  - Requires WordPress 6.5+ and PHP 8.0+.
-  - Installable via Composer pointing at the `release` branch (compiled assets included).
+    - Adds a **Split Background** toggle to the **Styles** tab of any Group block.
+    - Lets editors **pick two colours from the theme palette** and drag a range control to set the split position (0–100%).
+    - Writes to the standard `style.color.gradient` attribute — **fully compatible with existing gradient tooling** and produces no extra markup.
+    - Disabling the toggle cleanly clears the gradient.
+    - Requires WordPress 6.5+ and PHP 8.0+.
+    - Installable via Composer pointing at the `release` branch (compiled assets included).
 
 ### 15. [HM GSAP Animations](https://github.com/humanmade/hm-gsap-animations)
+
 - **Description**: A WordPress plugin that adds **GSAP-powered animation controls** to core and custom blocks via the Gutenberg block editor, allowing editors to configure scroll and load animations entirely from the Inspector panel — no code required.
 - **Key Features**:
-  - Injects a **"GSAP Animation" panel** into the Inspector sidebar of every supported block via `addFilter`.
-  - Supports two animation modes: **Transition** (plays once on scroll or page load) and **Scroll Scrub** (animation progress tied 1-to-1 to scroll position).
-  - Ships with a rich set of animation presets: `fade-up/down/left/right`, `zoom-in/out`, `flip-x/y`, `count-up`, `parallax-background`, `split-words`, `split-chars`, and `hover` effects (lift, grow, shrink, tilt, brighten, dim).
-  - Full **Inspector panel controls** for trigger, duration, delay, easing, stagger, scroll start/end markers, scrub smoothing, and parallax speed.
-  - Extends to custom blocks via `block.json` supports (`hmGsapAnimations`) or a PHP filter (`hm_gsap_animations_supported_blocks`), with granular feature flags for stagger, count-up, parallax, and split text.
-  - Respects `prefers-reduced-motion` — all animations are skipped entirely when the OS "Reduce motion" setting is enabled.
-  - Plays a lightweight **CSS preview in the editor canvas** (no GSAP in the editor, zero JS overhead).
-  - Uses [Splitting.js](https://splitting.js.org/) for split-text effects at runtime only — saved HTML is never modified, avoiding conflicts with the block editor or React.
+    - Injects a **"GSAP Animation" panel** into the Inspector sidebar of every supported block via `addFilter`.
+    - Supports two animation modes: **Transition** (plays once on scroll or page load) and **Scroll Scrub** (animation progress tied 1-to-1 to scroll position).
+    - Ships with a rich set of animation presets: `fade-up/down/left/right`, `zoom-in/out`, `flip-x/y`, `count-up`, `parallax-background`, `split-words`, `split-chars`, and `hover` effects (lift, grow, shrink, tilt, brighten, dim).
+    - Full **Inspector panel controls** for trigger, duration, delay, easing, stagger, scroll start/end markers, scrub smoothing, and parallax speed.
+    - Extends to custom blocks via `block.json` supports (`hmGsapAnimations`) or a PHP filter (`hm_gsap_animations_supported_blocks`), with granular feature flags for stagger, count-up, parallax, and split text.
+    - Respects `prefers-reduced-motion` — all animations are skipped entirely when the OS "Reduce motion" setting is enabled.
+    - Plays a lightweight **CSS preview in the editor canvas** (no GSAP in the editor, zero JS overhead).
+    - Uses [Splitting.js](https://splitting.js.org/) for split-text effects at runtime only — saved HTML is never modified, avoiding conflicts with the block editor or React.
 
- ### 16. [HM External Links](https://github.com/humanmade/hm-external-links)
+### 16. [HM External Links](https://github.com/humanmade/hm-external-links)
+
 - **Description**: A WordPress plugin that **automatically detects and handles external links sitewide** — no configuration needed. Scans all links on every page load and applies safe, accessible defaults without touching theme or block markup.
 - **Key Features**:
-  - Automatically opens external links in a **new tab** (`target="_blank"`).
-  - Adds `rel="noopener noreferrer"` to all external links, **preserving any existing `rel` values**.
-  - Optionally displays an **external link icon** after links in `header`, `footer`, and navigation items (enabled by default, toggled via filter).
-  - Handles links added **dynamically after page load** (e.g. via AJAX or the Interactivity API).
-  - Icon appearance is fully customisable via **CSS custom properties** (`--arrow-size`, `--arrow-margin`, `--hm-external-icon-url`).
-  - Ships with a compiled `build/` directory — **no build step required** to install.
-  - Installable by dropping into `wp-content/plugins/` or `client-mu-plugins/`.
-
+    - Automatically opens external links in a **new tab** (`target="_blank"`).
+    - Adds `rel="noopener noreferrer"` to all external links, **preserving any existing `rel` values**.
+    - Optionally displays an **external link icon** after links in `header`, `footer`, and navigation items (enabled by default, toggled via filter).
+    - Handles links added **dynamically after page load** (e.g. via AJAX or the Interactivity API).
+    - Icon appearance is fully customisable via **CSS custom properties** (`--arrow-size`, `--arrow-margin`, `--hm-external-icon-url`).
+    - Ships with a compiled `build/` directory — **no build step required** to install.
+    - Installable by dropping into `wp-content/plugins/` or `client-mu-plugins/`.
 
 ### 17. [Workflows](https://github.com/humanmade/Workflows)
 
 - **Description**: A flexible event and notification framework for WordPress. Allows teams to define automated workflows that listen to specific events and notify the right people through the right channels — in code or via the WordPress admin.
 - **Key Features**:
-  * Simple chainable API: define when an action triggers, what message to send, who receives it, and where it goes.
-  * Built-in destinations: email, WordPress dashboard notifications, and Slack.
-  * Extensible — create custom destinations to post to any CRM, issue tracker, or chat application.
-  * Built-in events: post publish, post status change, new comment, new editorial comment.
-  * Editorial comments and assignees — discuss content and assign responsibility directly within the post edit screen.
-  * Workflows can be defined in code or configured via the WordPress admin UI.
-
+    - Simple chainable API: define when an action triggers, what message to send, who receives it, and where it goes.
+    - Built-in destinations: email, WordPress dashboard notifications, and Slack.
+    - Extensible — create custom destinations to post to any CRM, issue tracker, or chat application.
+    - Built-in events: post publish, post status change, new comment, new editorial comment.
+    - Editorial comments and assignees — discuss content and assign responsibility directly within the post edit screen.
+    - Workflows can be defined in code or configured via the WordPress admin UI.
 
 ### 18. [extended-block-variations](https://github.com/humanmade/extended-block-variations)
 
 - **Description**: Adds support for per-block-variation CSS files, conditionally enqueued only when that variation is active on the page, fully compatible with WordPress's CSS inlining support.
 - **Key Features**:
-  * Per-variation CSS loading — styles only ship to the browser when the variation is in use.
-  * Compatible with WordPress core CSS inlining for performance.
-  * Reduces unused CSS across sites with many block variations.
-
+    - Per-variation CSS loading — styles only ship to the browser when the variation is in use.
+    - Compatible with WordPress core CSS inlining for performance.
+    - Reduces unused CSS across sites with many block variations.
 
 ### 19. [hm-block-gradient-border](https://github.com/humanmade/hm-block-gradient-border)
 
 - **Description**: Adds gradient border style controls to WordPress core blocks via the block editor, with no extra markup on the frontend.
 - **Key Features**:
-  * Gradient border support added to core blocks directly from the Inspector panel.
-  * Pure CSS output — no additional wrapper elements.
-  * Integrates cleanly with existing block editor styling controls.
-
+    - Gradient border support added to core blocks directly from the Inspector panel.
+    - Pure CSS output — no additional wrapper elements.
+    - Integrates cleanly with existing block editor styling controls.
 
 ### 20. [hm-block-interactivity](https://github.com/humanmade/hm-block-interactivity)
 
 - **Description**: Click, hover, and CSS-class-driven show/hide/toggle for WordPress blocks using the native WP Interactivity API — no custom JavaScript required.
 - **Key Features**:
-  * Show/hide/toggle behaviours configured entirely from the block editor.
-  * Supports click, hover, and CSS class triggers.
-  * Built on the native WP Interactivity API — no external JavaScript dependencies.
-
+    - Show/hide/toggle behaviours configured entirely from the block editor.
+    - Supports click, hover, and CSS class triggers.
+    - Built on the native WP Interactivity API — no external JavaScript dependencies.
 
 ### 21. [hm-block-hash-tabs](https://github.com/humanmade/hm-block-hash-tabs)
 
 - **Description**: URL-hash-driven tab panels for WordPress group blocks, enabling deep-linkable and shareable tab state.
 - **Key Features**:
-  * Tab state controlled by URL hash for shareable, bookmarkable links.
-  * Built on WordPress core group blocks — no new block types to manage.
-  * Lightweight vanilla JavaScript with no external dependencies.
-
+    - Tab state controlled by URL hash for shareable, bookmarkable links.
+    - Built on WordPress core group blocks — no new block types to manage.
+    - Lightweight vanilla JavaScript with no external dependencies.
 
 ### 22. [hm-block-advanced-background](https://github.com/humanmade/hm-block-advanced-background)
 
 - **Description**: Adds stacked CSS background layers and backdrop blur support to WordPress group blocks from the block editor.
 - **Key Features**:
-  * Multiple background layers on a single group block.
-  * Backdrop blur support without custom CSS.
-  * No extra markup — output is pure CSS applied to the existing group element.
-
+    - Multiple background layers on a single group block.
+    - Backdrop blur support without custom CSS.
+    - No extra markup — output is pure CSS applied to the existing group element.
 
 ### 23. [hm-popup-block](https://github.com/humanmade/hm-popup-block)
 
 - **Description**: A lightweight, accessible popup block for the WordPress block editor, built on the native HTML `<dialog>` element.
 - **Key Features**:
-  * Built on `<dialog>` — accessibility and focus management handled natively by the browser.
-  * Supports any inner blocks inside the popup content area.
-  * Lightweight vanilla JavaScript with no external dependencies.
-  * Unstyled by default for full theme control.
-
+    - Built on `<dialog>` — accessibility and focus management handled natively by the browser.
+    - Supports any inner blocks inside the popup content area.
+    - Lightweight vanilla JavaScript with no external dependencies.
+    - Unstyled by default for full theme control.
 
 ### 24. [asset-loader](https://github.com/humanmade/asset-loader)
 
 - **Description**: PHP utility library for WordPress that simplifies including dynamic Webpack-generated assets in themes and plugins.
 - **Key Features**:
-  * Reads `.asset.php` files to handle script dependencies and versions automatically.
-  * Works seamlessly with `@wordpress/scripts` build output.
-  * Supports loading assets for custom blocks, block extensions, and global theme/plugin scripts.
-  * Enables consistent asset organisation across themes and plugins.
-
+    - Reads `.asset.php` files to handle script dependencies and versions automatically.
+    - Works seamlessly with `@wordpress/scripts` build output.
+    - Supports loading assets for custom blocks, block extensions, and global theme/plugin scripts.
+    - Enables consistent asset organisation across themes and plugins.
 
 ### 25. [hm-scroll-synced-zoom-block](https://github.com/humanmade/hm-scroll-synced-zoom-block)
 
 - **Description**: A WordPress block that scales its contents on scroll, with an optional pinning mode that locks content into a modal-style spotlight at a defined scroll position.
 - **Key Features**:
-  * Scroll-driven zoom animation configurable from the block editor.
-  * Optional modal/spotlight pin at a defined scroll position for immersive storytelling layouts.
-  * No JavaScript framework dependency.
-
+    - Scroll-driven zoom animation configurable from the block editor.
+    - Optional modal/spotlight pin at a defined scroll position for immersive storytelling layouts.
+    - No JavaScript framework dependency.
 
 ### 26. [hm-rt-carousel-extension](https://github.com/humanmade/hm-rt-carousel-extension)
 
 - **Description**: Extends the `rt-carousel` block with spacing supports, a theme preset slide-gap picker, and frontend styles.
 - **Key Features**:
-  * Adds spacing and gap controls to the block editor for `rt-carousel`.
-  * Applies theme preset values for consistent design system alignment.
-  * Drop-in extension — no changes to the base `rt-carousel` plugin required.
+    - Adds spacing and gap controls to the block editor for `rt-carousel`.
+    - Applies theme preset values for consistent design system alignment.
+    - Drop-in extension — no changes to the base `rt-carousel` plugin required.
 
+### 27. [Authorship](https://github.com/humanmade/authorship)
 
- 
+- **Description**: A modern approach to author attribution in WordPress, supporting multiple authors and guest authors with a great UI and first-class REST API support.
+- **Key Features**:
+    - Attribute posts to multiple authors from a multi-select input in the block editor's Status & Visibility panel.
+    - Guest authors are created as real WordPress user accounts — no separate admin screens required.
+    - Promote a guest author to a functional user simply by changing their user role.
+    - Read and write attributed authors via the REST API (`authorship` field on `wp/v2/posts` endpoints).
+    - Create and list guest authors via the `authorship/v1/users` REST API endpoint.
+    - WP-CLI support — specify attributed authors when creating or updating posts via `--authorship`.
+    - Routes comment moderation and notification emails to all attributed authors.
+    - Includes a migration command to import author data from PublishPress Authors.
+
+### 28. [HM Immersive Block](https://github.com/humanmade/hm-immersive-block)
+
+- **Description**: Full-viewport immersive block with a pinned background image or video and scrolling text slides, powered by GSAP ScrollTrigger.
+- **Key Features**:
+    - Pins a full-viewport background image or video in place while text slides animate into view on scroll.
+    - Uses child `Immersive Slide` blocks for structured content composition.
+    - Supports scroll-driven and fade transition types between slides.
+    - Configurable animation speed (three presets: slow, normal, fast).
+    - Optional color overlay on the background media.
+    - Optional credit/caption text for the background media.
+    - Supports wide and full alignment.
+    - Requires WordPress 6.3+ and PHP 8.0+.
+
 ## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
+
 - **Description**: Package of reusable components, hooks and helper functions for the WordPress block editor(s).
 - **Key Features**:
-  - New controls including post picker, date control, file control.
-  - New components for common requirements such as text with limits.
-  - New hooks including useMeta, useBlockStyles, useSetAttribute.
-  - Other utilities functions for working with block, images and options.
+    - New controls including post picker, date control, file control.
+    - New components for common requirements such as text with limits.
+    - New hooks including useMeta, useBlockStyles, useSetAttribute.
+    - Other utilities functions for working with block, images and options.
 - **Installation**: This is an npm package and will not be installed via the `composer options` command.
 - **Documentation**: [Refer to project readme for more information](https://github.com/humanmade/block-editor-components).
 
 ## Documented Project Features
 
 ### [HG]
+
 - **Description**: This site has many interesting features that should be abstracted out in the future. In the meantime, please reach out to the **Americas Squad** for help with any of the following features.
 - **Key Features**:
-  - **Color palette picker** - Intended to replace the text/background color pickers. Allows the content editor to choose a color palette at the post or block level. Automatically sets text, UI, and background colors based on pre-selected accessible color combinations.
-  - **Primary category helper** - Gets the primary category for a post based on the Yoast primary category if it exists, or the first assigned category if not. Includes a component for using this inside of a block.
-  - **Max word count helper** - Prevents saving a post if it exceeds a max number of words. 
-  - **is-style helper** - Compare block classes against a string or array of class names to check whether the block has a specific block style applied. JS and PHP versions to support React or SSR versions of blocks.
-  - **De-duplication between featured article blocks** - Adds options to pass post IDs between blocks. Used to prevent duplication of posts on templates with multiple featured article blocks.
-  - **Supporting content column** - Pulls inline content elements into the traditional sidebar area on desktop, but maintains the source order to display them in between the surrounding content on mobile.
-  - **Accordion block** - Adds a JS accordion block with repeatable inner accordion item block. Improves accessibility and styleability vs using the details block.
-  - ˜˜**Carousel block** - An accessible carousel that can be used for images or cards with content.˜˜ - there's an HM plugin for it already
-  - **Featured articles block** - Choose an auto-generated list of posts by taxonomy item or a manually curated list of posts. For the manually curated list, supports choosing a custom featured image and entering a custom title. Also supports passing post IDS for deduplication (see above).
-  - **Image scroll replace block** - Scroll a series of images into place, either one atop another or side-by-side. Uses GSAP ScrollTrigger to manage the scroll animation.
-  - **Full screen slide scroll replace block** - Similar to the image scroll replace block, you can create full screen slides of content that pause in place while you scroll the page.
-  - **Stats block** - Only allows the stats text block, a custom paragraph style with different size and font options for displaying statistic cards.
-  - **Tabs block** - Accessible tabs. Includes linked tabs and their display cards. Also supports adding direct links to the list of tabs.
+    - ~~**Color palette picker**~~ - Already abstracted and included in the list above.
+    - ~~**Primary category helper**~~ - Already abstracted and included in the list above.
+    - **Max word count helper** - Prevents saving a post if it exceeds a max number of words.
+    - **is-style helper** - Compare block classes against a string or array of class names to check whether the block has a specific block style applied. JS and PHP versions to support React or SSR versions of blocks.
+    - ~~**De-duplication between featured article blocks** - Adds options to pass post IDs between blocks. Used to prevent duplication of posts on templates with multiple featured article blocks.~~ [HM Query Loop](https://github.com/humanmade/hm-query-loop) also has this option.
+    - **Supporting content column** - Pulls inline content elements into the traditional sidebar area on desktop, but maintains the source order to display them in between the surrounding content on mobile.
+    - ~~**Accordion block**~~ - Adds a JS accordion block with repeatable inner accordion item block. Improves accessibility and styleability vs using the details block. No need to use this - core now has an accordion block.
+    - ~~**Carousel block** - An accessible carousel that can be used for images or cards with content.~~ - Use HM [Carousel Block](https://github.com/humanmade/hm-carousel-block) or [rt-carousel](https://github.com/rtCamp/rt-carousel) instead.
+    - **Featured articles block** - Choose an auto-generated list of posts by taxonomy item or a manually curated list of posts. For the manually curated list, supports choosing a custom featured image and entering a custom title. Also supports passing post IDS for deduplication (see above).
+    - **Image scroll replace block** - Scroll a series of images into place, either one atop another or side-by-side. Uses GSAP ScrollTrigger to manage the scroll animation.
+    - ~~**Full screen immersive scroll block**~~ - Already abstracted and included in the list above.
+    - **Stats block** - Only allows the stats text block, a custom paragraph style with different size and font options for displaying statistic cards.
+    - ~~**Tabs block**~~ - Use [HM Tabs](https://github.com/humanmade/hm-tabs-block)
 - **Installation**: These features live within the repo and will require extraction and abstraction to be used elsewhere. Please reach out to the **Americas Squad** if you need support.
 
 ---
