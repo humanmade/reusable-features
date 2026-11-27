@@ -314,6 +314,19 @@ This repository is also a place to document other types of reusable features, su
     - Supports wide and full alignment.
     - Requires WordPress 6.3+ and PHP 8.0+.
 
+###n29. [HM Pattern Sync](https://github.com/humanmade/hm-pattern-sync)
+
+- **Description**: Finds every copy of an unsynced block pattern and propagates pattern fixes to them, keeping the content editors wrote (text, images, links, formatting).
+- **Key Features**:
+  - Finds copies through the `metadata.patternName` WordPress already writes when a pattern is inserted: no new tables, nothing to keep in sync.
+  - Matches older copies without `patternName` by block structure (`--fingerprint`).
+  - Two-command workflow: `wp pattern-sync prepare` locally before committing the fix, `wp pattern-sync update --apply` on the server after the deploy.
+  - Ships the previous version of the pattern with the fix, so it works on hosts without git history (VIP, Altis, Pantheon).
+  - Three-way merge per copy: design changes from the fix are applied, editors' changes are kept, and conflicts are never guessed.
+  - Review screen in wp-admin (Tools → Pattern Sync) for conflicts and structure changes, with before/after previews rendered by the theme and copies grouped by change.
+  - Dry run by default, and a revision is saved before every write.
+  - Requires WordPress 6.5+, PHP 7.4+ and WP-CLI.
+
 ## NPM-Installable Features
 
 ### [Block Editor Components](https://github.com/humanmade/block-editor-components)
