@@ -314,7 +314,7 @@ This repository is also a place to document other types of reusable features, su
     - Supports wide and full alignment.
     - Requires WordPress 6.3+ and PHP 8.0+.
 
-###n29. [HM Pattern Sync](https://github.com/humanmade/hm-pattern-sync)
+### 29. [HM Pattern Sync](https://github.com/humanmade/hm-pattern-sync)
 
 - **Description**: Finds every copy of an unsynced block pattern and propagates pattern fixes to them, keeping the content editors wrote (text, images, links, formatting).
 - **Key Features**:
